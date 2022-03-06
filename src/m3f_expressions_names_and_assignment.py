@@ -25,7 +25,7 @@ print(answer * 100)
 #               (i.e., the object 32).
 #          b. Multiplies that object (32) by 100
 #               (hence computing the object that is the integer 3,200).
-#          c. Prints (that is, displays on the Run/Console window)
+#          c. Prints (that is, displays on the Run window)
 #             the newly-computed object.  (It prints WITHOUT the comma.)
 #  _
 #   Make sure that you understand that those two lines accomplish the above,
@@ -67,6 +67,9 @@ print(answer * 100)
 #               and pause after typing the "s" to see what pops up.
 #               Do you see what function to use for square roots?
 #               (If not, ask for help.)
+#   Typing the DOT (and perhaps a letter or two) and then PAUSING to see
+#   what pops up is called the DOT TRICK.
+#  _
 #   Run your code (fix errors as needed), then change the above _TODO_ to DONE.
 ###############################################################################
 
@@ -91,6 +94,7 @@ print(answer * 100)
 ###############################################################################
 # TODO: 5.
 #   Ensure that no blue bars remain on the scrollbar-thing to the right.
+#   Mark this _TODO_ as DONE (but COMMIT-and-PUSH as described below!).
 #   Run one more time to be sure that all is still OK.
 #  _
 #   Then COMMIT-and-PUSH your work as before:
@@ -102,5 +106,5 @@ print(answer * 100)
 #                  using   Done   or something like that for the message.
 #  _
 #   You can COMMIT-and-PUSH as often as you like.
-#   DO IT FREQUENTLY; AT LEAST once per module.
+#   DO IT FREQUENTLY - AT LEAST once per module.
 ###############################################################################

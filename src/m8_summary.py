@@ -1,9 +1,10 @@
 """
 An exercise that summarizes what you have learned in this Session.
 
-Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
-         Vibha Alangar, Matt Boutell, Dave Fisher, Sriram Mohan, Amanda Stouder,
-         Mohammed Noureddine, Valerie Galluzzi, their colleagues and
+Authors: David Mutchler, Rachel Krohn, Dave Henthorn, Scott McClellan,
+   Yiji Zhang, Mark Hays, Vibha Alangar, Matt Boutell, Dave Fisher,
+   Sriram Mohan, Amanda Stouder, Mohammed Noureddine, Steve Chenoweth,
+   Valerie Galluzzi, Curt Clifton, their colleagues and
          PUT_YOUR_NAME(S)_HERE.
 """
 ###############################################################################
@@ -15,10 +16,12 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 # TODO: 2.
 #   Write code that accomplishes the following (and ONLY the following):
 #  _
-#    - Constructs a SimpleTurtle with a "blue", thickness 1 Pen.
-#    - Constructs a SimpleTurtle with shape "turtle" and a "red",
-#        thickness 5 Pen.
-#    - Makes the SimpleTurtle with a "blue" Pen:
+#    a. Imports rosegraphics as rg.
+#    b. Constructs a TurtleWindow.
+#    c. Constructs a SimpleTurtle with a "blue", thickness 1 Pen.
+#    d. Constructs a SimpleTurtle with shape "turtle"
+#        and a "red", thickness 5 Pen.
+#    e. Makes the SimpleTurtle with a "blue" Pen:
 #        1. Go straight UP 200 pixels.
 #        2. Lift its pen UP
 #             (so that the next movements do NOT leave a "trail").
@@ -31,14 +34,15 @@ Authors: David Mutchler, Rachel Krohn, Scott McClellan, Yiji Zhang, Mark Hays,
 #             (so that the next movements will return to leaving a "trail").
 #        5. Change its Pen's color to "green" and thickness 20.
 #        6. Go down and to the left at a 45 degree angle, for 150 pixels.
-#    - Makes the SimpleTurtle with a "red" Pen, with shape "turtle".
-#        7. Go 50 times the cosine of 0.3 (radians) pixels straight to the LEFT.
-#        8. Then go 150 pixels straight DOWN.
-#    - Makes the SimpleTurtle with a Pen that was "blue" but is now "green"
-#        9. Continue forward (in the same direction that it has been going)
+#    f. Makes the SimpleTurtle with a "red" Pen, with shape "turtle":
+#        1. Go 50 times the cosine of 0.3 (radians) pixels straight to the LEFT.
+#        2. Then go 150 pixels straight DOWN.
+#    g. Makes the SimpleTurtle with a Pen that was "blue" but is now "green":
+#        1. Continue forward (in the same direction that it has been going)
 #             75 more pixels.
+#    h. Asks your TurtleWindow to wait for a mouse click.
 #  _
-#   See the  turtles.PDF  file for what the final result should look like.
+#   See the  turtles.pdf  file for what the final result should look like.
 #  _
 #   Don't forget to:
 #     - Import rosegraphics
